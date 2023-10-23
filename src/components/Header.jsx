@@ -15,7 +15,7 @@ const Header = () => {
                 :
                 <AiOutlineMenu onClick={()=> setToggle(!toggle)} className='text-white text-2xl md:hidden block'/>
                }
-               <ul className='md:flex hidden bg-black gap-5'>
+               <ul className='md:flex hidden text-white gap-5'>
                 <li>
                     Home
                 </li>
@@ -27,6 +27,9 @@ const Header = () => {
                 </li>
                 <li>
                     Contact
+                </li>
+                <li>
+                    Company
                 </li>
                </ul>
 
@@ -45,6 +48,9 @@ const Header = () => {
                 </li>
                 <li className='p-5'>
                     Contact
+                </li>
+                <li className='p-5'>
+                    Company
                 </li>
                </ul>
          </div>
