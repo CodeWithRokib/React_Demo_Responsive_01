@@ -13,10 +13,11 @@ const Banner = () => {
                 <Typed className='pl-3'
                     strings={['Web Development',"Digital Marketing", "Ethical Hacking"]}
                     typeSpeed={100}
-                    loop={true}
-                    
+                    loop={true} 
                 />
+                
               </div>
+              <button className='bg-black mt-5 text-white p-3 rounded'>Get Started</button>
          </div>
     </div>
   )
